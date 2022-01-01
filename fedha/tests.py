@@ -35,7 +35,7 @@ class NeighbourhoodTestClass(TestCase):
         '''
         test case for profiles
         '''
-        self.user = User(username='tony')
+        self.user = User(username='jamal')
         self.user.save()
         self.neighbourhood = Neighbourhood(neighbourhood_name='Karen',neighbourhood_location='Nairobi',neighbourhood_description="hood of hoods",neighbourhood_photo='photo.url',admin = self.user)
         self.neighbourhood.create_neighbourhood()
