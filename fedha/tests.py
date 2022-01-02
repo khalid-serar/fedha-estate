@@ -63,7 +63,7 @@ class BusinessTestClass(TestCase):
 
     def setUp(self):
 
-        self.user = User(username="khalid", password="ikmaal855")
+        self.user = User(username="jay", password="jay123")
         self.user.save()
         self.neighbourhood = Neighbourhood(neighbourhood_name="fedha", neighbourhood_location="Nairobi", admin=self.user, neighbourhood_description='our home')
         self.neighbourhood.save()
