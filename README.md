@@ -14,3 +14,6 @@ This is a Django application of a neighburhood where a user can add a neighbourh
 4.Bootstrap 3
 5.Heroku
 6.Postgresql
+
+# Dependencies
+
