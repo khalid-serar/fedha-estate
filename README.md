@@ -16,4 +16,8 @@ This is a Django application of a neighburhood where a user can add a neighbourh
 6.Postgresql
 
 # Dependencies
-
+1.python3.8
+2.Django 4.0
+3.Virtual environment
+4.Heroku
+5.Gunicorn
