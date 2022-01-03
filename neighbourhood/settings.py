@@ -88,14 +88,14 @@ WSGI_APPLICATION = 'neighbourhood.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'fedha',
-        'USER': 'moringa',
-    'PASSWORD':'Access',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'fedha',
+#         'USER': 'moringa',
+#     'PASSWORD':'Access',
+#     }
+# }
 
 
 # Simplified static file serving.
