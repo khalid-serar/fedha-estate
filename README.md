@@ -8,3 +8,9 @@ This is a Django application of a neighburhood where a user can add a neighbourh
 
 # Technoogies used
 
+1.python 3.8.10
+2.HTML
+3.Django 3.2.5
+4.Bootstrap 3
+5.Heroku
+6.Postgresql
