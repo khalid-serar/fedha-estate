@@ -6,11 +6,11 @@ from django.contrib.auth.models import User
 class ProfileTestClass(TestCase):
 # Set up method
     def setUp(self):
-        self.user = User(username="khalid", password="ikmaal855")
+        self.user = User(username="khalid", password="jay123")
         self.user.save()
         self.neighbourhood= Neighbourhood(neighbourhood_name = "karen", neighbourhood_location= "Nairobi", admin = self.user, neighbourhood_description='hood of hoods')
         self.neighbourhood.save()
-        self.profile = Profile(bio='my hood',email='khalid@gmail.com', id_number=37810415,user = self.user, neighbourhood = self.neighbourhood)
+        self.profile = Profile(bio='my hood',email='email@gmail.com', id_number=37515889,user = self.user, neighbourhood = self.neighbourhood)
 
     def test_instance(self):
         self.assertTrue(isinstance(self.profile,Profile))
@@ -35,7 +35,7 @@ class NeighbourhoodTestClass(TestCase):
         '''
         test case for profiles
         '''
-        self.user = User(username='jamal')
+        self.user = User(username='jay')
         self.user.save()
         self.neighbourhood = Neighbourhood(neighbourhood_name='Karen',neighbourhood_location='Nairobi',neighbourhood_description="hood of hoods",neighbourhood_photo='photo.url',admin = self.user)
         self.neighbourhood.create_neighbourhood()
@@ -63,11 +63,11 @@ class BusinessTestClass(TestCase):
 
     def setUp(self):
 
-        self.user = User(username="jay", password="jay123")
+        self.user = User(username="kay", password="pass123")
         self.user.save()
-        self.neighbourhood = Neighbourhood(neighbourhood_name="fedha", neighbourhood_location="Nairobi", admin=self.user, neighbourhood_description='our home')
+        self.neighbourhood = Neighbourhood(neighbourhood_name="route4", neighbourhood_location="Eastside", admin=self.user, neighbourhood_description='mtaa yetu')
         self.neighbourhood.save()
-        self.business = Business(business_name='salama bakery', business_email='salama@gmail.com',business_description='my business')
+        self.business = Business(business_name='my hood', business_email='email@g.com',business_description='my business')
      
 
    
